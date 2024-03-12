@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#skip {
+    position: absolute;
+    top: -30px;
+    height: 25px;
+    background-color: white;
+}
+
+#link{
+    color: rgb(19, 129, 32);
+    font-style: bold;
+    font-weight: 600;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    border: 2px solid black;
+    width: 70%;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+ }
+
+.text {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    border: 2px solid black;
+    width: 100%;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+   ul li {
+    padding-top: 50px;
+   }
+   #skip:focus {
+    top: 15px;
+    }
+    body {
+        font-family: 'Oswald', 'Trebuchet MS', sans-serif;
+        list-style-type: square;
+    }
+    div {
+        opacity: 0.9;
+      }
+    .text {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    border: 2px solid rgb(148, 0, 0);
+    width: 100%;
+    column-gap: 10px;
+    justify-content: space-around;
+    align-items: stretch;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 250px 250px 250px 250px;
+        border: 2px solid black;
+        width: 90%;
+        column-gap: 20px;
+        row-gap: 20px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    ul {
+        list-style-type: circle;
+      }
+}
+
+/* Background color, borders around pictures, images can be centered */

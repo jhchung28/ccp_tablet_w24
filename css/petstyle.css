@@ -1,0 +1,11 @@
+#skip {
+    display: none;
+}
+#skip:focus {
+    display:block;
+}
+
+#link:target{
+    color: yellow;
+    font-style: bold;
+}
